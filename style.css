@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/*------------ navbar---------------- */
+
+nav {
+    position: sticky;
+    top: 0;
+    transition: 0.6s ease-in-out;
+}
+
+.navbar {
+    background: #FFFFFF;
+    width: 80%;
+    margin-top: 30px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 60px;
+    margin-left: 110px;
+    box-shadow: 0px 20px 35px 0px rgba(210, 210, 210, 0.25);
+    ;
+}
+
+
+
+
+.navbar .logo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+    padding: 0px 5px;
+}
+
+.navbar .logo h2 span {
+    color: #516ADB;
+}
+
+.navbar .logo h2 {
+    color: black;
+}
+
+.navbar .list {
+    margin-right: 50px;
+}
+
+.navbar .list ul {
+    display: flex;
+}
+
+.navbar .list ul li {
+    font-weight: bold;
+    font-size: 17px;
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.navbar .list ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.navbar .list ul li a::after {
+    content: '';
+    width: 0;
+    height: 4px;
+    left: 0;
+    top: 100%;
+    border-radius: 3px;
+    position: absolute;
+    background-color: #516ADB;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .list ul li a:hover:after {
+    width: 90%;
+
+}
+
+/*------------ navbar---------------- */
+/* ---------Second portion---------- */
+.container {
+    display: flex;
+}
+
+.container1 {
+    margin-top: 80px;
+    width: 50%;
+    height: 40vh;
+}
+
+.container1 img {
+    margin-left: 50px;
+}
+
+.container1 span {
+    color: #516ADB;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container1 h1 {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.container h3 {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.container1 p {
+    color: gray;
+    margin-left: 60px;
+}
+
+.container1 h2 {
+    margin-left: 60px;
+}
+
+.container1 button {
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 10px 17px;
+    background-color: #516ADB;
+    border: none;
+    border-radius: 10px;
+}
+
+.container1 button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.container1 button:hover {
+    background-color: blue;
+}
+
+
+.container1 .icon {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.container1 .icon .fa-brands {
+    color: #516ADB;
+}
+
+.container2 img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* close------------------ */
+
+
+
+.thirdportion {
+    width: 100%;
+    height: 80vh;
+    background-color: #F7F7F7;
+    margin-top: 150px;
+}
+
+.thirdportion .text {
+    margin-left: 450px;
+    padding: 45px 0px;
+}
+
+.thirdportion .text p {
+    margin-left: 70px;
+    padding: 5px 0px;
+    color: #516ADB;
+}
+
+.thirdportion .text h2 {
+    font-size: 30px;
+}
+
+.thirdportion .text img {
+    margin-left: 50px;
+}
+
+/* cards */
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards .card1 {
+    width: 25%;
+    height: 50vh;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.6s ease-in-out;
+}
+
+.cards .card1:hover {
+    background-color: #6479d7;
+    color: white;
+}
+
+
+
+.cards .card1 img {
+    width: 10%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.cards .card1 h3 {
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.cards .card1 .p1 p {
+    padding-top: 10px;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* close----------- */
+
+.forthportion .text h4 {
+    margin-top: 90px;
+    margin-left: 550px;
+}
+
+.forthportion h1 {
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+.forthportion p {
+    text-align: center;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.forthportion button {
+    margin-left: 600px;
+    margin-top: 50px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6479d7;
+    margin-bottom: 10px;
+}
+
+.forthportion button:hover {
+    background-color: blue;
+}
+
+.forthportion button a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* close------------ */
+
+
+.fifthportion {
+    width: 100%;
+    height: 70vh;
+    background-color: #F7F7F7;
+}
+
+.fifthportion .text p {
+    padding: 50px 0px;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+.fifthportion h1 {
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.fifthportion .images h2 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.fifthportion .images {
+    margin-left: 70px;
+}
+
+.fifthportion .images img {
+    width: 15%;
+    margin-left: 130px;
+    margin-top: 50px;
+    padding: 0px 10px;
+}
+
+
+/* close------ */
+
+
+
+/* forth */
+
+.portfolioportion .text{
+    margin-left: 550px;
+    padding: 30px 0px;
+}
+
+.portfolioportion .text p{
+    margin-left: 50px;
+}
+.portfolioportion img{
+    margin-left: 30px;
+}
+/* close */
+
+
+
+.lastcard{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lastcard .lastcard1{
+    width: 25%;
+    margin-left:50px ;
+    height: 30vh;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+} 
+.lastcard .lastcard1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+ 
+.lastcard .lastcard1{
+    position: relative;
+}
+.lastcard1 .content{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+   top: 0;
+   background: rgba(0,0,0, 0.9);
+   flex-direction: column;
+   opacity: 0;
+   transition: 0.6s;
+   border-radius: 20px;
+}
+.lastcard1 .content:hover{
+    opacity: 1;
+}
+.lastcard1 .content h2{
+    margin-top: 90px;
+    margin-left: 90px;
+    color: #516ADB;
+}
+.lastcard1 .content button{
+    margin-top: 10px;
+    margin-left: 140px;
+    padding: 8px 15px;
+    background-color: #516ADB;
+    border: none;
+    border-radius: 3px;
+   
+}
+.lastcard1 .content button a{
+    color: white;
+    text-decoration: none;
+}
+.lastcard1 .content button:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+.contact{
+    margin-top: 50px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact .left .icon .icon1{
+    display: flex;
+    width: 8%;
+    height: 6vh;
+    background-color: #6479d7;
+    margin-left: 230px;
+    border-radius: 50%;
+     margin-top: 10px;
+}
+
+.contact .left .icon .icon1 .fa-solid{
+    margin-left: 10px;
+    margin-top: 8px;
+    color: white ;
+}
+.contact .right{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 70vh;
+    border: 3px solid #6479d7;
+    border-radius: 10px;
+    margin-right: 150px;
+}
+.contact .right input{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 110px;
+    padding: 10px  5px;
+    margin-left: 20px;
+    padding-right: 150px;
+    border-radius: 10px;
+    border: 2px solid #6479d7;
+}
+
+.contact .right .textarea input{
+    padding-bottom: 150px;
+    border-radius: 10px;
+    border: 2px solid #6479d7;
+}
+.contact .right .conbtn button{
+    margin-left: 235px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #516ADB;
+}
+.contact .right .conbtn button:hover{
+    background-color: blue;
+    transition: 0,.6s ease-in-out;
+    border:2px solid #516ADB;
+}
+.contact .right .conbtn button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* close------------ */
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #516ADB;
+}
+footer h2{
+    color: white;
+    margin-left: 500px;
+    padding-top: 25px;
+}
